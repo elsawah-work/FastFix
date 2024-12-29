@@ -343,7 +343,7 @@ p a:hover {
 }
 /* Preloading Animation */
  #loading-animation {
-    background-image: url("../img/loading.gif");
+    background-image: url("https://raw.githubusercontent.com/elsawah-work/FastFix/main/img/loading.gif");
     background-position: center center;
     background-repeat: no-repeat;
     height: 200px;
