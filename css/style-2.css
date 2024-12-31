@@ -182,6 +182,10 @@ p.none {
     font-size: 26px;
     line-height: 45px;
 }
+.logo-phone img {
+    width: 100%;
+    height: 100%;
+}
 /* ::::::::::  02.  SECTION Settings ::::::::::: */
 
 
@@ -1160,7 +1164,7 @@ p.none {
     }
     .logo-phone {
         display: block;
-        width: 50%;
+        width: 80%;
         margin: auto;
     }
     /* Go down */
@@ -1344,7 +1348,7 @@ p.none {
     }
     .logo-phone {
         display: block;
-        width: 50%;
+        width: 80%;
         margin: auto;
     }
     /* Go down */
@@ -1528,7 +1532,7 @@ p.none {
     }
     .logo-phone {
         display: block;
-        width: 50%;
+        width: 80%;
         margin: auto;
     }
     /* Go down */
