@@ -379,7 +379,7 @@ p.none {
     line-height: 60px;
 }
 .btn-light.active, .btn-light:active, .btn-light:focus, .btn-light:hover {
-    background-color:#fdca52!important;
+    background-color:##fdec52!important;
     border-color:#fff!important;
     color:#fff!important;
 }
