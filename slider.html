@@ -586,33 +586,12 @@
     <!-- ////////////////\\\\\\\\\\\\\\\\ -->
     <!-- ********** Javascript ********** -->
     <!-- \\\\\\\\\\\\\\\\//////////////// -->
-
-    <!-- *** *** Libraries jQuery and Bootstrap - Be careful to don't remove *** *** -->
+ <script language="Javascript" src="js/js.js"></script>
+    <!-- *** *** Libraries jQuery and Bootstrap - Be careful to don't remove *** *** 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- *** JavaScript library that detects HTML5 and CSS3 features in the user’s browser ***
-    <script src="js/modernizr-2.6.2.min.js"></script> -->
-
-    <!-- *** Animated Header *** 
-    <script type="text/javascript" src="js/classie.js"></script>
-    <script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>-->
-
-    <!-- *** Dynamically-resized, slideshow-capable background image to any page or element *** -->
     <script type="text/javascript" src="js/jquery.backstretch.js"></script>
-
-    <!-- *** Swipebox is the jQuery "lightbox" plugin for desktop, mobile and tablet *** 
-    <script type="text/javascript" src="js/jquery.swipebox.js"></script>-->
-
-    <!-- *** Firefly effect *** -->
-    <script type="text/javascript" src="js/jquery.firefly-0.3.js"></script>
-
-    <!-- *** A lightweight script to animate scrolling to anchor links *** --
-    <script type="text/javascript" src="js/smooth-scroll.js"></script>-->
-
-    <!-- *** Create and maintain how elements fade in, triggered when they enter the viewport ***--
-    <script type="text/javascript" src="js/scrollReveal.js"></script> -->
-
+	<script type="text/javascript" src="js/jquery.firefly-0.3.js"></script>
     <script>
     /* =================================== */
     /* ::::::: Load the Whole Page ::::::: */
@@ -623,27 +602,7 @@
         // will fade out the whole DIV that covers the website.
         jQuery("#preloader").delay(600).fadeOut("slow");
     });
-    </script><!-- --
-
-    <script>
-    /* =================================== */
-    /* ::::::: Bootstrap ScrollSpy ::::::: */
-    /* =================================== */
-    $('body').scrollspy({ target: '.navbar-default' });
-    $('[data-spy="scroll"]').each(function () {
-    var $spy = $(this).scrollspy('refresh')
-    })
     </script>
-
-    <script>
-    /* ================================== */
-    /* ::::::: Bootstrap carousel ::::::: */
-    /* ================================== */
-    $('.carousel').carousel({
-      interval: 5000
-    })
-    </script>-->
-
     <script>
     /* ========================== */
     /* ::::::: Backstrech ::::::: */
@@ -663,20 +622,7 @@
 
     // This second backstretch must contain your blurred picture
     $("#pricing").backstretch("img/bg-2.jpg");
-    </script><!--
-
-    <script>
-    /* ======================== */
-    /* ::::::: Swipebox ::::::: */
-    /* ======================== */
-    ;( function( $ ) {
-        'use strict';
-        $( '.swipebox' ).swipebox( {
-            loopAtEnd: true // true will return to the first image after the last image is reached
-        } );
-    } )( jQuery );
-    </script>-->
-
+    </script>
     <script>
     /* ============================== */
     /* ::::::: Firefly effect ::::::: */
@@ -691,57 +637,6 @@
             on: 'header'
         });
     });
-    </script><!--
-
-    <script>
-    /* ============================= */
-    /* ::::::: Smooth scroll ::::::: */
-    /* ============================= */
-    smoothScroll.init({
-        speed: 800, // Integer. How fast to complete the scroll in milliseconds
-        easing: 'easeInOutCubic', // Easing pattern to use
-        updateURL: false, // Boolean. Whether or not to update the URL with the anchor hash on scroll
-    });
-    </script>
-
-    <script>
-    /* ============================== */
-    /* ::::::: Scroll Reveal :::::::: */
-    /* ============================== */
-    (function($) {
-        'use strict';
-        // The starting defaults.
-            var config = {
-            after: '0.2s',
-            over: '1.66s',
-        };
-        window.scrollReveal = new scrollReveal({ reset: true, move: '100px' });
-    })();
-    </script>
-
-    <script>
-    /* ================================= */
-    /* ::::::: Subscrition form :::::::: */
-    /* ================================= */
-    $('form#subscribe').submit(function(e){
-        e.preventDefault();
-        $.post($(this).attr('action'),$(this).serialize(),function(data){
-            $('input#newsletterText').val('').attr('placeholder',data);
-        });
-    });
-    </script>
-
-    <script>
-    /* =========================== */
-    /* ::::::: Email form :::::::: */
-    /* =========================== */
-    $('form#messagecontact').submit(function(e){
-        e.preventDefault();
-        $.post($(this).attr('action'),$(this).serialize(),function(data){
-            $('div#messages').html(data);
-        });
-    });
     </script>-->
-
 </body>
 </html>
