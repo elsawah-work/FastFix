@@ -1226,7 +1226,7 @@ p.none {
         border: 1px solid #fed26c;
         width: 100%;
         margin: 10px 0;
-        float: left;
+        float: none;
     }
     #contact .btn-default {
         font-size: 16px!important;
@@ -1410,7 +1410,7 @@ p.none {
         border: 1px solid #fed26c;
         width: 100%;
         margin: 10px 0;
-        float: left;
+        float: none;
     }
     #contact .btn-default {
         font-size: 16px!important;
