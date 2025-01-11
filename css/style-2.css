@@ -140,6 +140,10 @@ p a:hover {
 }
 
 /* ============================================= */
+img.img-responsive {
+    width: auto;
+    height: auto;
+}
  .contact-form-button-submit:hover {
     background: #fed26c;
     color: #fff;
