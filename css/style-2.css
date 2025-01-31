@@ -319,9 +319,9 @@ p.none {
     margin-bottom:50px
 }
 .title-light i {
-    width: 80px;
-    height: 80px;
-    font-size: 42px;
+    width: 120px;
+    height: 120px;
+    font-size: 75px;
     border-radius: 60px;
     color: #000;
     border: 1px solid #444;
@@ -360,10 +360,10 @@ p.none {
     line-height: 82px
 }
 .title-light i.ico4 {
-    line-height: 78px
+    line-height: 112px
 }
 .title-light i.ico5 {
-    line-height: 78px
+    line-height: 112px
 }
 .title-light i.ico6 {
     line-height: 76px
