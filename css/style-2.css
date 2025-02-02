@@ -261,6 +261,7 @@ p.none {
 .logo-phone img {
     width: 100%;
     height: 100%;
+    margin-top: -50px;
 }
 /* ::::::::::  02.  SECTION Settings ::::::::::: */
 
@@ -333,7 +334,7 @@ p.none {
     margin:0;
     color: #000;
     font-size: 16px;
-    margin: 20px 0 25% 0;
+    margin: 20px 0 12% 0;
     font-weight: bold;
 }
 .title-light a i {
